@@ -23,16 +23,19 @@ Door de keuze die je maakt verandert het volgende stukje tekst en het einde vera
 input()
 os.system("cls")
 #
-print("INTRO")
-print("\n")
-print("Dit verhaal begint in Damascus, Syrië 2011. Dit verhaal gaat over een vluchteling genaamd Siham.")
-print("Siham is 17 jaar en studeert geneeskunde.")
-print("Siham heeft een broertje Aziz. Hij is 12 jaar.")
-print("Ze heeft ook een vriendje die kort geleden een huwelijksaanzoek deed en nu haar verloofde is.")
-print("In 2011 begint de oorlog in Syrië.")
-input()
-os.system("cls")
-print("\n")
+def intro():
+    print("INTRO")
+    print("\n")
+    print("Dit verhaal begint in Damascus, Syrië 2011. Dit verhaal gaat over een vluchteling genaamd Siham.")
+    print("Siham is 17 jaar en studeert geneeskunde.")
+    print("Siham heeft een broertje Aziz. Hij is 12 jaar.")
+    print("Ze heeft ook een vriendje die kort geleden een huwelijksaanzoek deed en nu haar verloofde is.")
+    print("In 2011 begint de oorlog in Syrië.")
+    input()
+    time.sleep(1)
+    os.system("cls")
+    print("\n")
+    stukje_1()
 #
 def stukje_1():
     while True:
@@ -182,8 +185,6 @@ def stukje_6():
     print("\n")
     print("Je bent dood gegaan.")
     print("Bedankt voor het spelen.")
-    time.sleep(4)
-    exit
 #
 def stukje_7():
     while True:
@@ -196,7 +197,7 @@ def stukje_7():
         print("Ik smokkel jullie naar Turkije voor 3000 euro. Sihams moeder vraagt aan de man: is dat voor ons drieën.") 
         print("De man antwoord: ja. Sihams moeder vraagt aan siham wat ze wil doen aangezien ze maar 3500 euro hebben")
         print("\n")
-        print(""""Hoe gaat de familie het land uit vluchten? ...
+        print("""Hoe gaat de familie het land uit vluchten? ...
         a. mensensmokkelaar
         b. zonder mensensmokkelaar""") #a --> stukje 9 b --> stukje 10#
         antwoord = input(">>>")
@@ -454,7 +455,7 @@ def stukje_16():
     print("Siham vader zegt tegen siham en Aziz om aan tafel te komen zitten zodat hij alles kan uitleggen.")
     print("Ze gaan met ze drieën zitten en sihams vader legt uit dat hij het heel moeilijk heeft gehad.")
     print("""Hij zegt dat hij in eerste instantie naar Oostenrijk wilde gaan maar toen hij daar was moest hij de gevangenis in 
-    omdat hij een gevecht uit elkaar probeerde te halen maar er zelf in belandde.""")
+omdat hij een gevecht uit elkaar probeerde te halen maar er zelf in belandde.""")
     print("Hij zegt ook dat hij daarna naar Nederland is gevlucht en vanaf daar contact heeft proberen op te zoeken maar dat lukte hem niet.") 
     print("Zijn plan was om wat geld te verdienen en het daarna nog een keer te proberen. Sihams vader vraagt ook naar zijn vrouw.") 
     print("Siham barst in tranen uit en zegt dat zijn de boot tocht niet heeft overleefd. Ze beginnen met ze drieën te huilen. Sihams vader krijgt een hartaanval.") 
@@ -522,19 +523,19 @@ def stukje_19():
             print("Dat is geen geldig antwoord. Antwoord met a of b")
             time.sleep(2)
             os.system("cls")
-    #
-    def stukje_20():
-        print("De politie heeft medelijden omdat het 2 verloofden zijn en besluit om ze samen mee te nemen.") 
-        print("Eenmaal op het bureau legde de politie uit dat ze zijn opgepakt omdat ze vluchtelingen zijn. de politie doorzoekt ook al hun spullen.") 
-        print("Tijdens het doorzoeken komt de politie documenten tegen waarin ze zien dat siham een dokter in opleiding is en dat Mohamed 1 van de beste advocaten in Syrië.")
-        print("De politie door beter onderzoek naar de documenten en haalt er ook een rechter bij.")
-        print("""Nadat beide families een aantal dagen op bureau hebben geslapen komt de rechter naar ze toe om te vertellen
-        dat ze een verblijfsvergunning krijgen als Mohamed voor de overheid gaat werken en siham na haar studie in 1 van de beste ziekenhuizen van Griekenland gaat werken.""")
-        print("Siham en Mohamed gaat er mee akkoord en ze worden vrij gelaten.")
-        input()
-        time.sleep(1)
-        os.system("cls")
-        stukje_22()
+#
+def stukje_20():
+    print("De politie heeft medelijden omdat het 2 verloofden zijn en besluit om ze samen mee te nemen.") 
+    print("Eenmaal op het bureau legde de politie uit dat ze zijn opgepakt omdat ze vluchtelingen zijn. de politie doorzoekt ook al hun spullen.") 
+    print("Tijdens het doorzoeken komt de politie documenten tegen waarin ze zien dat siham een dokter in opleiding is en dat Mohamed 1 van de beste advocaten in Syrië.")
+    print("De politie door beter onderzoek naar de documenten en haalt er ook een rechter bij.")
+    print("""Nadat beide families een aantal dagen op bureau hebben geslapen komt de rechter naar ze toe om te vertellen
+dat ze een verblijfsvergunning krijgen als Mohamed voor de overheid gaat werken en siham na haar studie in 1 van de beste ziekenhuizen van Griekenland gaat werken.""")
+    print("Siham en Mohamed gaat er mee akkoord en ze worden vrij gelaten.")
+    input()
+    time.sleep(1)
+    os.system("cls")
+    stukje_22()
 #
 def stukje_21():
     print("De politie toon geen medelijden en neemt ze apart mee naar andere politiebureaus.")
