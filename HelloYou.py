@@ -23,19 +23,17 @@ Door de keuze die je maakt verandert het volgende stukje tekst en het einde vera
 input()
 os.system("cls")
 #
-def intro():
-    print("INTRO")
-    print("\n")
-    print("Dit verhaal begint in Damascus, Syrië 2011. Dit verhaal gaat over een vluchteling genaamd Siham.")
-    print("Siham is 17 jaar en studeert geneeskunde.")
-    print("Siham heeft een broertje Aziz. Hij is 12 jaar.")
-    print("Ze heeft ook een vriendje die kort geleden een huwelijksaanzoek deed en nu haar verloofde is.")
-    print("In 2011 begint de oorlog in Syrië.")
-    input()
-    time.sleep(1)
-    os.system("cls")
-    print("\n")
-    stukje_1()
+print("INTRO")
+print("\n")
+print("Dit verhaal begint in Damascus, Syrië 2011. Dit verhaal gaat over een vluchteling genaamd Siham.")
+print("Siham is 17 jaar en studeert geneeskunde.")
+print("Siham heeft een broertje Aziz. Hij is 12 jaar.")
+print("Ze heeft ook een vriendje die kort geleden een huwelijksaanzoek deed en nu haar verloofde is.")
+print("In 2011 begint de oorlog in Syrië.")
+input()
+time.sleep(1)
+os.system("cls")
+print("\n")
 #
 def stukje_1():
     while True:
@@ -117,7 +115,7 @@ def stukje_3():
         print("Iedereen loopt naar buiten en ziet dat ze moeilijk met ze allen in 1 auto gaan passen.")
         print("Mohameds vader stelt voor om met 1 auto te gaan maar sihams vader stelt voor om met 2 auto's te gaan. ")
         print("\n")
-        print(""""Gaan ze met ...
+        print("""Gaan ze met ...
         a. 1 auto.
         b. 2 auto's.""") #a --> stukje 17 b --> stukje 18#
         antwoord = input(">>>")
