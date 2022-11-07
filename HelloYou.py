@@ -244,7 +244,7 @@ def stukje_8():
         print("Het slome bootje brengt je in 10 dagen naar Turkije en de snelle in 4. Sihams moeder hoorde het gesprek en vraagt aan siham welk bootje nemen we.") 
         print("We hebben nog 3700 euro over.")
         print("\n")
-        print(""""Welk bootje neem je? ...
+        print("""Welk bootje neem je? ...
         a. Het slome bootje
         b. Het snelle bootje""") #a --> stukje 11 b --> stukje 12#
         antwoord = input(">>>")
@@ -348,7 +348,7 @@ def stukje_13():
         print("De kapitein denkt even na en zegt: hij ging of naar Nederland of naar Oostenrijk maar ik kan me niet herinneren welk van de 2.")
         print("Siham bedankt de man en zegt tegen Aziz: waar gaan we eerst heen Nederland of Oostenrijk? ")
         print("\n")
-        print(""""Waar wil je eerst heen? ...
+        print("""Waar wil je eerst heen? ...
         a. Nederland
         b. Oostenrijk""") #a --> stukje 14 b --> stukje 15#
         antwoord = input(">>>")
