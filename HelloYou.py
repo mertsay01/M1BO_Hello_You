@@ -158,7 +158,7 @@ def stukje_5():
         print("Hij stuur siham een email met hoe het allemaal moet.")
         print("Siham is blij dat er nog een beetje geld verdient kan worden want haar vader is weg en haar moeder heeft geen baan meer.")
         print("\n")
-        print(""""De tijd wordt versneld met ...
+        print("""De tijd wordt versneld met ...
         a. 1 jaar
         b. 2 jaar""") #a --> stukje 7 b --> stukje 8#
         antwoord = input(">>>")
